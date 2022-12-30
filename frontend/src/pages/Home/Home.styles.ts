@@ -7,12 +7,10 @@ export const Home = styled.div`
 `;
 
 export const Header = styled.header`
+  height: 66px;
   text-align: center;
   margin-bottom: 10px;
-`;
-
-export const Logo = styled.img`
-  width: 300px;
+  background: url('src/assets/logo.png') no-repeat center;
 `;
 
 export const ButtonBox = styled.div`

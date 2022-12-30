@@ -16,5 +16,6 @@ export const Button = styled.button<{ color: 'primary' | 'secondary' }>`
   padding: 16px 0px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
   ${({ color }) => colorCSS[color]}
 `;
