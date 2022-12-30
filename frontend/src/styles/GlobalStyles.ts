@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: none;
   }
   html {
     scroll-behavior: smooth;
@@ -25,4 +26,5 @@ export const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
 `;
